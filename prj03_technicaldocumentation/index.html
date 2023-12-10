@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>
+            <h1>HTML and CSS</h1>
+        </header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#What_is_HTML">What is HTML</a>
+        <a class="nav-link" href="#HTML_Simple_Syntax">HTML Simple Syntax</a>
+        <a class="nav-link" href="#HTML_Links">HTML Links</a>
+        <a class="nav-link" href="#What_is_CSS">What is CSS</a>
+        <a class="nav-link" href="#CSS_Key_Aspects">CSS Key Aspects</a>
+        <a class="nav-link" href="#CSS_Simple_Syntax">CSS Simple Syntax</a>
+    </nav>
+    <main id="main-doc">
+        <section id="Introduction" class="main-section">
+            <header>Introduction</header>
+            <article>
+                <p>HTML and CSS are two foundational technologies used to create websites and web applications. </p>
+                <p>HTML and CSS form the foundation of web design and development. HTML defines the structure and content of a web page, while CSS defines the appearance and layout of the page. By using these technologies together, web developers can create attractive, functional, and accessible websites that work across a variety of devices and platforms.</p>
+                <p>HTML defines the backbone of a webpage by structuring content. It establishes the hierarchy of elements, such as headings, paragraphs, lists, and links. CSS is crucial for styling and presenting HTML content. It allows you to control colors, fonts, layout, and other visual aspects. CSS enhances the user experience by making web pages visually appealing, user-friendly, and consistent across devices.</p>
+            </article>
+            <br>
+        </section>
+        <section id="What_is_HTML" class="main-section">
+            <header>What is HTML</header>
+            <article>
+                <p>HTML stands for HyperText Markup Language. It is the standard markup language used to create and design documents on the World Wide Web.</p>
+                <p>HTML is essential for structuring content on web pages, providing a set of elements or tags that define the different parts of a document, such as headings, paragraphs, links, images, and more.</p>
+                <p>Web browsers use HTML to interpret and display the content of web pages to users.</p>
+            </article>
+            <br>
+        </section>
+        <section id="HTML_Simple_Syntax" class="main-section">
+            <header>HTML Simple Syntax</header>
+            <article>
+                <p>HTML (HyperText Markup Language) uses a syntax composed of elements, attributes, and content to structure and describe the content of a webpage.</p>
+                <p>Here are some examples of syntax that is being used in HTML:</p>
+                <ul>
+                    <li><span class="syntx">&lt;!DOCTYPE&gt;</span> - Declares the document type and version of HTML being used (HTML5).</li>
+                    <li><span class="syntx">&lt;html lang="en"&gt;</span> - The root element of the HTML document, with the language attribute set to "en" (English).</li>
+                    <li><span class="syntx">&lt;head&gt;</span> - Contains meta-information about the HTML document, such as character set, viewport settings, and the title of the page.</li>
+                    <li><span class="syntx">&lt;meta charset="UTF-8"&gt;</span> - Specifies the character encoding for the document (UTF-8).</li>
+                    <li><span class="syntx">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span> - Sets the viewport properties for better responsiveness on different devices. (UTF-8).</li>
+                    <li><span class="syntx">&lt;title&gt;</span> -  Sets the title of the HTML document (displayed on the browser tab).</li>
+                    <li><span class="syntx">&lt;body&gt;</span> -  Contains the content of the HTML document.</li>
+                    <li><span class="syntx">&lt;header&gt;, &lt;nav&gt;, &lt;section&gt;, &lt;footer&gt;</span> -  Structural elements for organizing the content.</li>
+                    <li><span class="syntx">&lt;h1&gt;, &lt;h2&gt;, &lt;p&gt;, &lt;ul&gt;, &lt;li&gt;, &lt;a&gt;</span> -  Various HTML tags for headings, paragraphs, lists, and links.</li>
+                </ul>
+                <h4>HTML Document Structure</h4>
+                <p>The basic structure of an HTML document includes <span class="syntx">&lt;html&gt;</span>, <span class="syntx">&lt;head&gt;</span>, and <span class="syntx">&lt;body&gt;</span> elements.</p>
+                <p>Example:</p>
+                <code>&lt;!DOCTYPE html&gt;
+                    &lt;html&gt;
+                    &lt;head&gt;
+                    &lt;title&gt;Page Title&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                    &lt;h1&gt;Heading&lt;/h1&gt;
+                    &lt;p&gt;Paragraph&lt;/p&gt;
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                </code>
+            </article>
+            <br>
+        </section>
+        <section id="HTML_Links" class="main-section">
+            <header>HTML Links</header>
+            <article>
+                <p>HTML links and images are essential elements of web development that allow users to navigate between pages and enhance the visual appeal of webpages.</p>
+                <p>Links allow users to navigate between different web pages or sections of the same page by clicking on text or images. Links are created using the <span class="syntx">&lt;a&gt;</span> tag and the href attribute, which specifies the URL of the page or file to be linked to.</p>
+                <code>&lt;a href="https://www.example.com"&gt;Click here&lt;/a&gt; to visit example website</code>
+                <p>This code creates a hyperlink that redirects the user to the example website when clicked. The text "Click here" is displayed to the user, and the URL to which the hyperlink points is specified by the href attribute.</p>
+                <br>
+                <p>The <span class="syntx">&lt;img&gt;</span> tag is used to embed images in your web page. To display an image, you need to provide the source (URL or file path) of the image using the '<span class="syntx">src</span>' attribute. Here's a basic example:</p>
+                <code>&lt;img src="example.jpg" alt="example image"&gt;</code>
+                <br>
+                <p>Links and images can be used together to create a more engaging and informative webpage. For example, an image can be linked to a relevant web page or article, providing more information on a particular topic. Proper use of links and images not only enhances the user experience but also makes the webpage more accessible and informative.</p>
+                <p>Example:</p>
+                <code>&lt;a href="https://www.example.com"&gt;
+                    &lt;img src="example.jpg" alt="example image"&gt;
+                &lt;/a&gt;</code>
+                <p>This code creates a hyperlink that is represented by an image. When the user clicks on the image, they are redirected to the example website. This technique is commonly used to create image galleries, product listings, and other visual elements that serve as links to other pages or content.</p>
+            </article>
+            <br>
+        </section>
+        <section id="What_is_CSS" class="main-section">
+            <header>What is CSS</header>
+            <article>
+                <P>CSS, which stands for Cascading Style Sheets, is a style sheet language used to describe the presentation and formatting of a document written in HTML or XML. In simpler terms, CSS is responsible for controlling how web pages look and feel.</P>
+                <p>CSS allows web developers to control the appearance of a web page by specifying styles for elements such as fonts, colors, backgrounds, and layouts. CSS can be used to create complex designs, such as multi-column layouts, responsive designs that adjust to different screen sizes, and animations and transitions.</p>
+            </article>
+            <br>
+        </section>
+        <section id="CSS_Key_Aspects" class="main-section">
+            <header>CSS Key Aspects</header>
+            <article>
+                <P>CSS, or Cascading Style Sheets, is a style sheet language used to control the presentation and layout of HTML or XML documents. It allows web developers to define how the elements of a webpage should be displayed, specifying styles such as colors, fonts, spacing, and positioning.</P>
+                <p>Here are some important aspects or key points about CSS:</p>
+                <ol>
+                    <li><strong>Selectors</strong> - Selectors are used to target HTML elements that you want to style.</li>
+                    <li><strong>Properties and Values</strong> - CSS properties define the style aspects you want to change (e.g., color, font-size, margin).</li>
+                    <li><strong>Box Model</strong> - The box model represents each HTML element as a rectangular box with content, padding, border, and margin. It influences the layout and spacing of elements on a webpage.</li>
+                    <li><strong>Cascading</strong> - The "Cascading" in CSS refers to the order of priority when multiple style rules conflict. Styles can come from different sources (external style sheets, internal styles, inline styles), and they cascade to determine which rules apply.</li>
+                    <li><strong>Specificity</strong> - Specificity is a concept in CSS that determines which rule is more specific and thus takes precedence. It helps resolve conflicts when multiple rules target the same element.</li>
+                    <li><strong>Responsive Design</strong> - CSS is essential for creating responsive designs that adapt to different screen sizes and devices. Media queries are commonly used to apply styles based on the characteristics of the device, such as screen width.</li>
+                    <li><strong>Layout Models</strong> - CSS provides layout models like Flexbox and Grid, offering powerful tools for creating complex and flexible page layouts.</li>
+                    <li><strong>External, Internal, and Inline Styles</strong> - CSS styles can be applied externally using a separate style sheet, internally within an HTML document, or inline directly within HTML tags.</li>
+                    <li><strong>Importance of Separation of Concerns</strong> - CSS promotes the separation of content and presentation, allowing developers to maintain and update styles independently of the HTML structure.</li>
+                    <li><strong>Browser Compatibility</strong> - While modern browsers are generally consistent in their interpretation of CSS, developers should be mindful of browser compatibility issues and may need to include vendor prefixes for certain styles.</li>
+                </ol>
+            </article>
+        </section>
+        <br>
+        <section id="CSS_Simple_Syntax" class="main-section">
+            <header>CSS Simple Syntax</header>
+            <article>
+                <p>In CSS, the syntax consists of rules that define how HTML elements should be styled. Each rule is made up of a selector and a declaration block, which contains one or more declarations. Here's a breakdown of the syntax and an example:</p>
+                <code class="css-code">selector {
+                    property: value;
+                }</code>
+                <ul>
+                    <li><strong>Selector</strong>: Specifies the HTML element(s) to which the style rule applies.</li>
+                    <li><strong>Declaration Block</strong>: Enclosed in curly braces <strong>{}</strong>, contains one or more declarations.</li>
+                    <li><strong>Declaration</strong>:  Consists of a property and a value, separated by a colon (:), and ends with a semicolon <strong>(;)</strong>.</li>
+                </ul>
+                <h4>CSS Box Model</h4>
+                <p>The CSS box model is a concept that describes how HTML elements are represented as rectangular boxes on a web page. Each box has four main components:</p>
+                <ol>
+                    <li><strong><span class="txtclr">content area</span></strong></li>
+                    <li><strong><span class="txtclr">padding</span></strong></li>
+                    <li><strong><span class="txtclr">border</span></strong></li>
+                    <li><strong><span class="txtclr">margin</span></strong></li>
+                </ol>
+                <p>The <span class="txtclr">content area</span> is innermost part of the box represents the actual content of the HTML element, such as text, images, or other media. The content area's dimensions are set by properties like <span class="txtclr">width</span> and <span class="txtclr">height</span>.</p>
+                <p>The <span class="txtclr">padding</span> is the space between the content area and the element's border. It provides internal spacing within the box. Padding's dimensions are controlled by properties like <span class="txtclr">padding-top</span>, <span class="txtclr">padding-right</span>, <span class="txtclr">padding-bottom</span>, and <span class="txtclr">padding-left</span>.</p>
+                <p>The <span class="txtclr">border</span> surrounds the padding and content areas. It defines the outermost boundary of the element. You can set the border's style, color, and width using properties like <span class="txtclr">border-style</span>, <span class="txtclr">border-color</span>, and <span class="txtclr">border-width</span>.</p>
+                <p>The <span class="txtclr">margin</span> is the space outside the element's border. It provides external spacing between elements. Margins are controlled by properties like <span class="txtclr">margin-top</span>, <span class="txtclr">margin-right</span>, <span class="txtclr">margin-bottom</span>, and <span class="txtclr">margin-left</span>.</p>
+                <h4>CSS Layout</h4>
+                <p>CSS layout is the process of positioning and arranging HTML elements on a web page. There are several ways to achieve layout in CSS, including using floats, positioning, and flexbox.</p>
+                <p><span class="txtclr">Floats</span> are a CSS property that allows elements to be floated to the left or right of their container, allowing other elements to wrap around them. This technique is commonly used for creating multi-column layouts.</p>
+                <p><span class="txtclr">Positioning</span> is another CSS property that allows elements to be positioned in a specific location on the page, relative to the parent or to the viewport. This technique is useful for creating complex layouts and overlapping elements.</p>
+                <p><span class="txtclr">Flexbox</span> is a newer layout method that allows elements to be arranged in flexible rows and columns, with options for aligning and justifying content. This method is particularly useful for creating responsive layouts that adapt to different screen sizes.</p>
+                <p>Other layout techniques include using <span class="txtclr">CSS grid</span>, which allows for a more complex and precise grid-based layout, and using <span class="txtclr">media queries</span> to create responsive layouts that adapt to different screen sizes.</p>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
